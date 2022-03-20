@@ -1,6 +1,6 @@
 //
-//  ThemeSwitcherFeedbackApp.swift
-//  ThemeSwitcherFeedback
+//  AppearenceSwitcherFeedbackApp.swift
+//  AppearenceSwitcherFeedback
 //
 //  Created by John Behnke on 3/20/22.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ThemeSwitcherFeedbackApp: App {
+struct AppearenceSwitcherFeedbackApp: App {
   @ObservedObject var themeSettings = ThemeSettings.shared
     var body: some Scene {
         WindowGroup {
